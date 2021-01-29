@@ -1,0 +1,153 @@
+:root {
+  --bodytext: red;
+  --blue-hover: red;
+  --blue: red;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+  -webkit-text-size-adjust: 100%;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+html {
+  border: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+blockquote,
+q,
+th,
+td,
+caption,
+table,
+div,
+span,
+object,
+iframe,
+p,
+pre,
+a,
+abbr,
+acronym,
+address,
+code,
+del,
+dfn,
+em,
+img,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption,
+tbody,
+tfoot,
+thead,
+tr {
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  line-height: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+input,
+textarea {
+  line-height: 100%;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+body,
+input,
+textarea {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+  font-size: 14px;
+  color: var(--bodytext);
+  height: 100%;
+  background: #fff;
+  scroll-behavior: smooth;
+}
+
+a,
+.a {
+  text-decoration: none;
+  color: var(--blue);
+  cursor: pointer;
+}
+
+a:hover,
+.a:hover {
+  color: var(--blue-hover);
+}
+
+ul {
+  list-style: none;
+}
+
+p,
+ul li {
+  line-height: 1.7em;
+  word-wrap: break-word;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 50px white inset;
+  box-shadow: 0 0 0 50px white inset;
+  -webkit-text-fill-color: #242a2c;
+}
+
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 50px white inset;
+  box-shadow: 0 0 0 50px white inset;
+  -webkit-text-fill-color: #242a2c;
+}
