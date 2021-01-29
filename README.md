@@ -1,2 +1,3 @@
 # js-css-assessment
- Assessment test
+
+Live: https://css-js-assessment.netlify.app/
